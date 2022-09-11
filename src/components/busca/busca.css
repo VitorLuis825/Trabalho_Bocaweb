@@ -1,0 +1,11 @@
+.busca{
+    width: 25%;
+    height: 1.5em;
+    padding: 0.25em 1em;
+    margin-top: 2em;
+    font-size: 1.3em;
+    border-radius: 1em;
+    color: #495057;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.15);
+}

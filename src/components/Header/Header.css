@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+    background-color: #343a40;
+    font-size: 1.35em;
+}
+header > img{
+    height: 5em;
+    width: auto;
+}
+
+header > h1{
+    color: white;
+}
