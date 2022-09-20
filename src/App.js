@@ -20,7 +20,7 @@ class App extends Component{
 
   carregaOdas(){
     const {busca} = this.state
-    fetch('http://www.bocaweb.com.br/apibocaweb?nome='+busca).then(response => response.json()).then(odas => this.setState({odas}))
+    fetch('https://www.bocaweb.com.br/apibocaweb?nome='+busca).then(response => response.json()).then(odas => this.setState({odas}))
   }
 
   buscaODA = (evento) => {
